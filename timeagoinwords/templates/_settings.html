@@ -1,0 +1,12 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+	first:        true,
+	label:        "Timezone"|t,
+	id:           'timezone',
+	name:         'timezone',
+	instructions: "Such as **Europe/London**"|t,
+	value:        settings.timezone,
+	autofocus:    true,
+	errors:       settings.getErrors('timezone')
+}) }}
