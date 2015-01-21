@@ -8,7 +8,7 @@ Eg: "1 minute ago", "30 minutes ago", "1 week ago", "5 months ago"
 ## User Guide
 
 1. Configure Timezone
-2. 
+
 Navigate to your sites plugin listing in the craft admin panel, eg: `http://www.example.com/admin/settings/plugins`
 
 ![screenshot](http://i.imgur.com/w68JvXz.png)
