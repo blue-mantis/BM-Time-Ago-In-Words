@@ -24,6 +24,11 @@ Simply pass the datetime or timestamp to the custom twig method `timeAgoInWords`
 `{{ tweet.created_at|timeAgoInWords }}`
 
 
+# More plugins by Blue Mantis
+
+... can be found [here](http://plugins.bluemantis.com/)
+
+
 # License
 
 The MIT License (MIT)
