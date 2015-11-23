@@ -17,7 +17,7 @@ return array(
 	'about {amount} hours' => 'ongeveer {amount} uur',
 
 	// days
-	'1 day' => '{amount} dag',
+	'1 day' => '1 dag',
 	'about {amount} days' => 'ongeveer {amount} dagen',
 
 	// months
