@@ -11,7 +11,7 @@ class TimeAgoInWordsPlugin extends BasePlugin
 
 	function getVersion()
 	{
-		return '1.1.1';
+		return '1.1.2';
 	}
 
 	function getDeveloper()
@@ -23,6 +23,15 @@ class TimeAgoInWordsPlugin extends BasePlugin
 	{
 		return 'http://bluemantis.com';
 	}
+
+	/**
+	 * @return string
+	 */
+	public function getDocumentationUrl()
+	{
+		return 'https://github.com/blue-mantis/BM-Time-Ago-In-Words';
+	}
+
 
 	protected function defineSettings()
 	{

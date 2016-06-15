@@ -13,7 +13,7 @@ Navigate to your sites plugin listing in the craft admin panel, eg: `http://www.
 
 ![screenshot](http://i.imgur.com/w68JvXz.png)
 
-Click the plugin name "Time Ago In Words" to access the plugins control panel. Then enter the desired timezone.
+Click the plugin name "Time Ago In Words" to access the plugins control panel. Then enter the desired timezone (this defaults to the current timezone configured for php).
 
 ![screenshot](http://i.imgur.com/ekKmFc7.png)
 
