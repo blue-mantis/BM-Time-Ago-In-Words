@@ -27,7 +27,7 @@ class TimeAgoInWordsPlugin extends BasePlugin
 	protected function defineSettings()
 	{
 		return array(
-			'timezone' => array(AttributeType::String, 'required' => true),
+			'timezone' => array(AttributeType::String, 'required' => true, 'default' => ini_get('date.timezone')),
 		);
 	}
 
