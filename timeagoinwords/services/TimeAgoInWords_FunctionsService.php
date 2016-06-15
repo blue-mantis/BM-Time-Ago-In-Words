@@ -21,14 +21,14 @@ class TimeAgoInWords_FunctionsService extends BaseApplicationComponent
 		$timezone = $settings->timezone ? $settings->timezone : 'Europe/London';
 		date_default_timezone_set($timezone);
 
-		// get timestamp for datetime
-		$datetime = strtotime($datetime);
+		// get past timestamp
+		$past = $datetime->format('U');
 
 		// get current timestamp
 		$now = strtotime("now");
 
-		// calcluate time difference
-		$distanceInSeconds = $now - $datetime;
+		// calculate time difference
+		$distanceInSeconds = $now - $past;
 		$distanceInMinutes = round($distanceInSeconds / 60);
 
 		if ( $distanceInMinutes <= 1 ) {
