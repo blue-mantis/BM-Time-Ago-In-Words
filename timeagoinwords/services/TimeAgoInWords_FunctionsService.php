@@ -21,6 +21,11 @@ class TimeAgoInWords_FunctionsService extends BaseApplicationComponent
 		$timezone = $settings->timezone ? $settings->timezone : 'Europe/London';
 		date_default_timezone_set($timezone);
 
+		// convert string to dateTime if not already
+		if (!($datetime instanceof DateTime)) {
+			$datetime = new DateTime($datetime);
+		}
+
 		// get past timestamp
 		$past = $datetime->format('U');
 

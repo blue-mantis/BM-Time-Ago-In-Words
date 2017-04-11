@@ -11,7 +11,7 @@ class TimeAgoInWordsPlugin extends BasePlugin
 
 	function getVersion()
 	{
-		return '1.1.2';
+		return '1.1.3';
 	}
 
 	function getDeveloper()
